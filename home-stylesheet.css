@@ -1,0 +1,179 @@
+body {
+  background-image: url('./img/home-bck.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+
+
+
+header  {
+padding-top: 15px;
+max-width: 100%;
+background-color:transparent;
+}
+
+
+
+.navbar{
+display: flex;
+flex-direction: row;
+justify-content: space-between;
+}
+
+.nav-links{
+padding-right:1cm;
+font-size: 20px;
+}
+
+.nav-links a{
+  margin-left: 1cm;
+}
+
+.nav-links a:hover{
+  text-decoration-line:none;
+}
+
+.logo{
+padding-left: 1cm;;
+}
+
+
+
+
+
+.container {
+background-color: white;
+margin-top: 50%;
+}
+
+
+.überuns-text{
+display: flex;
+justify-content: center;
+flex-wrap: wrap;
+text-align:center;
+
+}
+
+h1{
+color: black;
+font-family: Comic Sans MS;
+font-size: 500;
+}
+
+
+
+.öffnungszeit-container{
+display: flex;
+flex-direction:row;
+justify-content: space-evenly;
+align-items:center;
+flex-wrap: wrap;
+margin-top: 10em;
+margin-bottom:5cm;
+
+}
+
+
+.text-left{
+padding-right:0.5cm;
+padding-left:0.5cm;
+margin-bottom:0cm;
+background-color:	rgb(204, 242, 255);
+width: 8cm;
+height: 10cm;
+display: flex;
+flex-direction:row;
+justify-content: space-between;
+border-radius: 20px;
+}
+
+.text-left p{
+margin-bottom: 1cm;
+}
+
+.text-left h2{
+margin-bottom:1.5cm;
+}
+
+.text-right{
+margin:0cm;
+padding-right:0.5cm;
+padding-left:0.5cm;
+width: 8cm;
+height: 10cm;
+background-color: red;
+max-width: 10cm;
+display: flex;
+flex-direction:row;
+justify-content: space-between;
+border-radius: 20px;
+}
+
+.text-right p{
+margin-bottom: 1cm;
+}
+
+.text-right h2{
+margin-bottom:1.5cm;
+}
+
+
+.circle {
+width: 240px;
+height: 240px;
+border-radius: 50%;
+background-color: blue;
+margin: 2cm;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-direction: column;
+color: white;
+font-size: 20px;
+font-weight: bold;
+text-align: center;
+flex-wrap: wrap;
+
+}
+
+.circle p {
+margin-top: 10px;
+}
+
+
+
+
+.circles{
+  display:flex;
+  flex-wrap:wrap;
+  flex-direction:row;
+  justify-content: center;
+  
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+  background-color:grey;
+  width: 100%;
+  margin:0px;
+  padding-right:100%;
+  height: 3cm;
+  
+}
