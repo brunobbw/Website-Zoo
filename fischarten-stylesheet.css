@@ -1,0 +1,63 @@
+
+body{
+    background-color: aquamarine;
+    max-width: 100%;
+  }
+  
+  main{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+    margin-top: 50%;
+    max-width: 100%;
+  
+  }
+  
+  .fish-oben{
+  margin:1cm;
+  column-gap: 10cm;
+  }
+  
+  .fish-unten{
+  margin:1cm;
+  }
+  
+  
+  .fish-link{
+    background-color: white;
+    padding-bottom: 2cm;
+    padding-bottom: 20px;
+  }
+  
+  .fish-link:hover{
+    background-color: pink;
+   
+  }
+  
+  .fish-link > p{
+    padding-top: 10px;
+    margin-top:0px;
+    margin-left: 20px;
+    font-family: sans-serif;
+    font-size: 30px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .mehrdazu{
+    display: flex;
+    align-items: center;
+  }
+  
+  .mehrdazu > img{
+    margin-left: 8px;
+  }
+  
+  .mehrdazu > a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: black;
+  }
