@@ -1,4 +1,4 @@
-main{
+main {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -6,120 +6,54 @@ main{
   column-gap: 20px;
 }
 
-
-
-.left-container{
-  background-color: red;
-  max-width: 350px;
-}
-
-.left-container > p{
-  margin: 0px;
-  font-family:sans-serif ;
-  font-size: 18px;
-  padding: 10px;
-  text-align: center;
-}
-
-.left-container > h2{
-  text-align: center;
-}
-
-
-.right-container > h1{
-  background-color: grey;
-  padding-bottom: 20px;
-  padding-left: 20px;
-  padding-top: 20px;
-  padding-right: 90px;
-  margin: 0px;
-  font-family:sans-serif ;
-}
-
-.right-container{
-display: flex;
-flex-direction:column;
-align-items:center;
-flex-wrap: wrap;
-column-gap: 20px;
-}
-
-
-
-.oktjan-div{
-  text-align: center;
-  background-color: grey;
-  max-width: 350px;
-}
-
-.oktjan-div > table{
+.interestContainer {
   display: flex;
-  align-items: center;
-  text-align: center;
+  flex-flow: wrap;
+  justify-content: space-evenly;
 }
 
-.oktjan-div > h2{
+.intrestCard {
+  width: 350px;
+  background-color: #0099ff;
   margin: 10px;
+  box-shadow: 0 0 15px black;
+  border-radius: 10px 10px 0 0;
 }
 
-.table-opentime > td{
-  color: red;
+.intrestCard:hover {
+  box-shadow: 0 0 35px black;
+  transition-duration: 300ms;
+  transform: scale(1.05);
 }
 
-.febsep-div{
-  background-color: grey;
-  max-width: 350px;
+.interestContainer {
+  max-width: 100vw;
+  max-height: 100vh;
+  margin-top: 75px;
 }
 
-.febsep-div > h2{
-  margin: 2px;
+.imageWithTextRight {
+  padding: 45px;
 }
 
 
 
-.text-left{
-  padding-right:0.5cm;
-  padding-left:0.5cm;
-  margin-bottom:0cm;
-  background-color:	rgb(204, 242, 255);
-  width: 8cm;
+
+
+
+
+
+.price-table {
   display: flex;
-  flex-direction:row;
-  justify-content: space-between;
-  border-radius: 20px;
-  }
-  
-  .text-left p{
-  margin-bottom: 1cm;
-  }
-  
-  .text-left h2{
-  margin-bottom:1.5cm;
-  }
-  
-  .text-right{
-  margin:0cm;
-  padding-right:0.5cm;
-  padding-left:0.5cm;
-  width: 8cm;
-  background-color: red;
-  max-width: 10cm;
-  display: flex;
-  flex-direction:row;
-  justify-content: space-between;
-  border-radius: 20px;
-  }
-  
-  .text-right p{
-  margin-bottom: 1cm;
-  }
-  
-  .text-right h2{
-  margin-bottom:1.5cm;
-  }
+  justify-content: center;
+  margin-top: 30px;
+  width: 100%;
+}
 
-  .öffnungszeit{
-    background-color: grey;
-    padding: 1cm;
-    justify-content: space-between;
-  }
+tr,
+td {
+  text-align: center;
+  padding: 50px;
+  font-size: 1.1em;
+  vertical-align: middle;
+}

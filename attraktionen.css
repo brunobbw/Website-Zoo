@@ -7,6 +7,52 @@ main{
     max-width: 100%;
 }
 
+header  {
+  padding-top: 15px;
+  max-width: 100%;
+  background-color:transparent;
+  }
+  
+  
+  /*Navigation-bar*/
+  .navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px;
+  }
+  
+  .nav-links{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  padding-right:1cm;
+  font-size: 20px;
+  }
+  
+  .nav-links > li{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .nav-links a{
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  
+  .nav-links a:hover{
+    text-decoration-line:none;
+  }
+  
+  .logo > p{
+  display: block;
+  flex-wrap: nowrap;
+  padding-left: 1cm;
+  font-size: 25px;
+  color: white;
+  }
+
 .card {
   display: inline-block;
   border: 1px solid #ccc;

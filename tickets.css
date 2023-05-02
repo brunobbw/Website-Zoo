@@ -1,0 +1,180 @@
+body {
+    background-image: url('./img/home-bck.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+main {
+    background-color: #FDF4E3;
+    margin-top: 50%;
+    max-width: 100%;
+}
+
+.main-section {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+header {
+    padding-top: 15px;
+    max-width: 100%;
+    background-color: transparent;
+}
+
+
+/*Navigation-bar*/
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0px;
+}
+
+.nav-links {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-right: 1cm;
+    font-size: 20px;
+}
+
+.nav-links>li {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.nav-links a {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.nav-links a:hover {
+    text-decoration-line: none;
+}
+
+.logo>p {
+    display: block;
+    flex-wrap: nowrap;
+    padding-left: 1cm;
+    font-size: 25px;
+    color: white;
+}
+
+
+/*Main-Section*/
+.price-table {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    width: 100%;
+}
+
+
+tr,
+td {
+    text-align: center;
+    padding: 50px;
+    font-size: 1.1em;
+    vertical-align: middle;
+}
+
+table{
+margin-bottom: 30px;
+}
+
+.left-container{
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.right-container{
+margin-left: 25px;
+}
+
+
+
+/*Footer Bereich*/
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: green;
+    margin: 0px;
+    max-width: 100%;
+    max-height: 30px;
+    font-size: 12px;
+}
+
+.first-part {
+    justify-content: flex-start;
+    margin: 0px;
+    padding: 0px;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+
+.middle-part {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+
+
+}
+
+.middle-part>p {
+    padding-left: 30px;
+    padding-right: 30px;
+    word-wrap: break-word;
+    white-space: normal;
+
+}
+
+.last-part {
+    text-align: center;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.last-part>br {
+    color: yellow;
+    word-wrap: break-word;
+    white-space: normal;
+
+}
+
+
+.card {
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 300px;
+   
+  }
+  
+  .card img {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  
+  .card-text {
+    padding: 10px;
+    text-align: center;
+    word-wrap: break-word;
+    white-space: normal;
+  }
+  
+  .card-text p {
+    margin: 0;
+  }
