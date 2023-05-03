@@ -1,10 +1,20 @@
+body {
+  background-color: #FDF4E3;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color: none;
+  max-width: 100%;
+}
+
 main{
-    background-color: #FDF4E3;
+    
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
     max-width: 100%;
+    margin-bottom: 10vh;
 }
 
 header  {
@@ -15,44 +25,56 @@ header  {
   
   
   /*Navigation-bar*/
-  .navbar{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin: 0px;
-  }
-  
-  .nav-links{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  padding-right:1cm;
-  font-size: 20px;
-  }
-  
-  .nav-links > li{
-    display: flex;
-    flex-wrap: wrap;
-  }
-  
-  .nav-links a{
-    padding-left: 20px;
-    padding-right: 20px;
-  }
-  
-  .nav-links a:hover{
-    text-decoration-line:none;
-  }
-  
-  .logo > p{
-  display: block;
-  flex-wrap: nowrap;
-  padding-left: 1cm;
-  font-size: 25px;
-  color: white;
-  }
+nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-color: transparent;
+	color: white;
+	font-family: Arial, sans-serif;
+	padding: 10px;
+}
 
+.navbar{
+  margin-bottom: 0px;
+}
+
+.logo {
+	font-size: 24px;
+	font-weight: bold;
+	text-decoration: none;
+	color: white;
+}
+
+.nav-links {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	list-style: none;
+	margin-right: 10px;
+}
+
+.nav-links li {
+	margin: 0 5px;
+}
+
+.nav-links li a {
+	font-size: 16px;
+	text-decoration: none;
+	color: white;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.nav-toggle {
+	display: none;
+}
+
+@media screen and (max-width: 355px) {
+	.nav-links {
+		display: none;
+	}
+}
 .card {
   display: inline-block;
   border: 1px solid #ccc;
@@ -81,3 +103,40 @@ header  {
 }
 
   
+/*Footer Bereich*/
+
+footer{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(122, 220, 43);
+  margin: 0px;
+  max-width: 100%;
+  height: 10px;
+  font-size:13px;
+}
+
+.footer-logo{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.footer-logo > img{
+  margin-left: 10px;
+}
+
+
+.footer-impdat{
+  display: flex;
+  align-items: center;
+}
+
+.footer-impdat > p{
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0px;
+}
+
+.footer-impdat > p > a {
+  color: black;
+}
