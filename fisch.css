@@ -1,5 +1,5 @@
 body {
-    background-image: url('./img/home-bck.png');
+    background-color:  #FDF4E3;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -10,8 +10,10 @@ body {
     flex-wrap: wrap;
     justify-content: center;
     background-color: #FDF4E3;
-    margin-top: 50%;
     max-width: 100%;
+    padding-bottom: 50px;
+    padding-top:0px ;
+    margin: 0px;
   }
   
   .main-section{
@@ -35,7 +37,7 @@ nav {
 	justify-content: space-between;
 	align-items: center;
 	background-color: transparent;
-	color: white;
+	color: black;
 	font-family: Arial, sans-serif;
 	padding: 10px;
 }
@@ -44,7 +46,7 @@ nav {
 	font-size: 24px;
 	font-weight: bold;
 	text-decoration: none;
-	color: white;
+	color: black;
 }
 
 .nav-links {
@@ -62,7 +64,7 @@ nav {
 .nav-links li a {
 	font-size: 16px;
 	text-decoration: none;
-	color: white;
+	color: black;
   padding-left: 10px;
   padding-right: 10px;
 }
@@ -77,6 +79,10 @@ nav {
 	}
 }
 
+/*Progress-Punkt Imgage*/
+.fishprogress-img{
+  margin-top: 20px;
+}
 
 /*Fischarten-Info Bereich*/
 .info-thema{
@@ -95,10 +101,10 @@ margin: 0px;
 
 .thema-container{
     display: flex;
-    background-color: red;
+    background-color: beige;
     flex-direction: column;
     margin: 0px;
-
+    margin-right: 10vw;
     padding: 0px;
     align-items: flex-start;
     
@@ -114,11 +120,16 @@ margin: 0px;
     display: flex;
     flex-direction: column;
     margin: 30px;
+   
 }
 
 
 
 /*Über Fisch*/
+.über-fisch-container{
+  margin-left: 10vw;
+}
+
 .card {
     display: inline-block;
     border: 1px solid #ccc;
@@ -127,6 +138,7 @@ margin: 0px;
     overflow: hidden;
     width: 300px;
     margin: 20px;
+    
   }
   
   .card img {
