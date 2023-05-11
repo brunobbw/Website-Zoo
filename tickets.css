@@ -15,6 +15,7 @@ main{
     justify-content: center;
     max-width: 100%;
     margin-bottom: 10vh;
+    margin-top: 40px;
 }
 
 .main-section {
@@ -24,64 +25,91 @@ main{
     justify-content: center;
 
 }
-
-header {
-    padding-top: 15px;
-    max-width: 100%;
-    background-color: transparent;
+/*Header Part*/
+.header {
+  background-image: url('./img/header-bck-tickete.jpg');
+  background-size:cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  color: #fff;
+  max-width: 100%;
 }
 
-
-/*Navigation-bar*/
-nav {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	background-color: transparent;
-	color: white;
-	font-family: Arial, sans-serif;
-	padding: 10px;
-}
-
-.navbar{
-  margin-bottom: 0px;
+.website-name {
+  font-size: 25px;
+  font-weight: bold;
+  margin-right: auto;
+  margin-left: 20px;
 }
 
 .logo {
-	font-size: 24px;
-	font-weight: bold;
-	text-decoration: none;
-	color: white;
+  font-size: 24px;
+  font-weight: bold;
+  
 }
 
-.nav-links {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: flex-end;
-	list-style: none;
-	margin-right: 10px;
+.navigation {
+  display: flex;
 }
 
-.nav-links li {
-	margin: 0 5px;
+.navigation ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
 }
 
-.nav-links li a {
-	font-size: 16px;
-	text-decoration: none;
-	color: white;
-  padding-left: 10px;
-  padding-right: 10px;
+.navigation li {
+  margin-right: 20px;
 }
 
-.nav-toggle {
-	display: none;
+.navigation li:last-child {
+  margin-right: 0;
 }
 
-@media screen and (max-width: 355px) {
-	.nav-links {
-		display: none;
-	}
+.navigation a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 19px;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-right: 20px;
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .navigation {
+    margin-top: 10px;
+  }
+
+  .navigation ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .navigation li {
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+
+  .website-name {
+    margin-top: 10px;
+    margin-right: 0;
+    font-size: 19px;
+  }
+
+  .navigation a {
+    font-size: 16px;
+   
+  }
+  
 }
 
 
