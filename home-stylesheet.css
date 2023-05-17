@@ -14,7 +14,7 @@ body {
 main{
   background-color: #FDF4E3;
   margin-top: 50%;
-  max-width: 100%;
+  min-width: 100%;
 }
 
 .main-section{
