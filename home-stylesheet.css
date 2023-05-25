@@ -217,6 +217,7 @@ margin-top: 5px;
   flex-direction:row;
   justify-content: space-between;
  text-align: center;
+ margin: 0;
 }
 
 .left-container{
@@ -256,7 +257,7 @@ footer{
   justify-content: space-between;
   background-color: rgb(122, 220, 43);
   margin: 0px;
-  max-width: 100%;
+  min-width: 100%;
   height: 10px;
   font-size:13px;
 }

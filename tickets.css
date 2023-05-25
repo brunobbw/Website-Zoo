@@ -13,7 +13,7 @@ main{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    max-width: 100%;
+    min-width: 100%;
     margin-bottom: 10vh;
     margin-top: 40px;
 }
@@ -34,7 +34,7 @@ main{
   align-items: center;
   padding: 10px;
   color: #fff;
-  max-width: 100%;
+  min-width: 100%;
 }
 
 .website-name {
@@ -174,41 +174,44 @@ margin-left: 25px;
   }
   
 
-
 /*Footer Bereich*/
 
 footer{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: rgb(122, 220, 43);
-    margin: 0px;
-    max-width: 100%;
-    height: 10px;
-    font-size:13px;
-  }
-  
-  .footer-logo{
-    display: flex;
-    align-items: center;
-    text-align: center;
-  }
-  .footer-logo > img{
-    margin-left: 10px;
-  }
-  
-  
-  .footer-impdat{
-    display: flex;
-    align-items: center;
-  }
-  
-  .footer-impdat > p{
-    padding-left: 10px;
-    padding-right: 10px;
-    margin: 0px;
-  }
-  
-  .footer-impdat > p > a {
-    color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgb(122, 220, 43);
+  margin: 0px;
+  min-width: 100%;
+  height: 10px;
+  font-size:13px;
+}
+
+.footer-logo{
+  display: flex;
+  align-items: center;
+  text-align: center;
+}
+.footer-logo > img{
+  margin-left: 10px;
+}
+
+
+.footer-impdat{
+  display: flex;
+  align-items: center;
+}
+
+.footer-impdat > p{
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 0px;
+}
+
+.footer-impdat > p > a {
+  color: black;
+}
+
+  hr{
+    height: 1.5px;
   }
