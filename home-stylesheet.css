@@ -273,6 +273,7 @@ footer{
 .footer-impdat{
   display: flex;
   align-items: center;
+  padding-right: 20px;
 }
 
 .footer-impdat > p{
