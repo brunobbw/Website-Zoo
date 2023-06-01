@@ -9,14 +9,16 @@ body {
 }
 
 main{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
   background-color: #FDF4E3;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-    min-width: 100%;
-    margin-bottom: 10vh;
-    margin-top: 40px;
+  min-width: 100%;
+  position: relative;
+  margin-right: 0px;
+
 }
 
 .main-section {
@@ -127,8 +129,12 @@ tr,
 td {
     text-align: center;
     padding: 50px;
-    font-size: 1.1em;
+    font-size: 1em;
     vertical-align: middle;
+}
+
+h2{
+  margin-top:0px;
 }
 
 table{
@@ -142,7 +148,7 @@ margin-bottom: 30px;
 }
 
 .right-container{
-margin-left: 25px;
+margin-left: 0px;
 }
 
 
@@ -154,13 +160,14 @@ margin-left: 25px;
     overflow: hidden;
     width: 300px;
     margin-top: 0px;
-    margin-left: 20px;
+    margin-left: 0px;
+    justify-content: center;
   }
   
   .card img {
     display: block;
     width: 100%;
-    height: auto;
+    height: 334px;
   }
   
   .card-text {
@@ -173,6 +180,8 @@ margin-left: 25px;
   .card-text p {
     margin: 0;
   }
+
+  
   
 
 /*Footer Bereich*/
