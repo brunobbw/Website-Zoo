@@ -23,15 +23,18 @@ body {
   justify-content: center;
     
   }
-  /*Header Part*/
+  
+/*Header Part*/
 .header {
+  background-image: url('./img/header-bck-attraktionen.jpg');
+  background-size: cover;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  background-color: transparent;
-  color: black;
-  max-width: 100%;
+  
+  color: #fff;
+  min-width: 100%;
 }
 
 .website-name {
@@ -67,7 +70,7 @@ body {
 }
 
 .navigation a {
-  color:rgb(109, 194, 39);
+  color: #fff;
   text-decoration: none;
   font-size: 19px;
   font-weight: bold;
@@ -199,6 +202,7 @@ margin: 0px;
   }
   
 /*Footer Bereich*/
+
 footer{
   display: flex;
   align-items: center;
@@ -235,3 +239,7 @@ footer{
 .footer-impdat > p > a {
   color: black;
 }
+
+  hr{
+    height: 1.5px;
+  }
