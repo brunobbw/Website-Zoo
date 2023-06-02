@@ -144,11 +144,12 @@ margin-bottom: 30px;
 .left-container{
     display: flex;
     flex-direction: column;
-   
+    margin: 20px;
 }
 
 .right-container{
-margin-left: 0px;
+
+margin: 20px;
 }
 
 
@@ -204,6 +205,10 @@ footer{
 }
 .footer-logo > img{
   margin-left: 10px;
+}
+
+.footer-logo > h2{
+  margin: 0px;
 }
 
 

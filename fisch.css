@@ -1,38 +1,38 @@
 body {
-    background-color:  #FDF4E3;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  }
-  
-  main{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    background-color: #FDF4E3;
-    min-width: 100%;
-    padding-bottom: 50px;
-    padding-top:0px ;
-    margin: 0px;
-  }
-  
-  .main-section{
+  background-image: url('./img/bck-fisch.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+main {
   display: flex;
-  flex-direction:row;
   flex-wrap: wrap;
   justify-content: center;
-    
-  }
-  
+  background-color: #FDF4E3;
+  min-width: 100%;
+  padding-bottom: 50px;
+  padding-top: 0px;
+  margin: 0px;
+}
+
+.main-section {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+
+}
+
 /*Header Part*/
 .header {
-  background-image: url('./img/header-bck-attraktionen.jpg');
+
   background-size: cover;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 10px;
-  
+
   color: #fff;
   min-width: 100%;
 }
@@ -47,7 +47,7 @@ body {
 .logo {
   font-size: 24px;
   font-weight: bold;
-  
+
 }
 
 .navigation {
@@ -107,103 +107,103 @@ body {
 
   .navigation a {
     font-size: 16px;
-   
+
   }
-  
+
 }
 
 /*Progress-Punkt Imgage*/
-.fishprogress-img{
+.fishprogress-img {
   margin-top: 20px;
 }
 
 /*Fischarten-Info Bereich*/
-.info-thema{
-    align-items: center;
-    margin: 25px;
-    padding: 0px;
+.info-thema {
+  align-items: center;
+  margin: 25px;
+  padding: 0px;
 }
 
-.info-thema > img{
-float: bottom;
+.info-thema>img {
+  float: bottom;
 }
 
-.info-thema > h2{
-margin: 0px;    
+.info-thema>h2 {
+  margin: 0px;
 }
 
-.fischBio-container{
+.fischBio-container {
   display: flex;
   flex-direction: row;
-  
+
 }
 
-.thema-container{
-    display: flex;
-    background-color: #FDF4E3;
-    flex-direction: column;
-    margin: 0px;
-    margin-right: 10vw;
-    padding: 0px;
-    align-items: flex-start;
-    
+.thema-container {
+  display: flex;
+  background-color: #FDF4E3;
+  flex-direction: column;
+  margin: 0px;
+  margin-right: 10vw;
+  padding: 0px;
+  align-items: flex-start;
+
 }
 
-.thema-container > h4{
-    padding: 10px;
-    margin: 0px;
+.thema-container>h4 {
+  padding: 10px;
+  margin: 0px;
 }
 
 
-.fischinfo-container{
-    display: flex;
-    flex-direction: column;
-    margin-left: 30px;
-    margin-top: 30px;
-    margin-bottom:30px;
-    margin-left: 15px;
-   
+.fischinfo-container {
+  display: flex;
+  flex-direction: column;
+  margin-left: 30px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  margin-left: 15px;
+
 }
 
 
 
 /*Über Fisch*/
-.über-fisch-container{
+.über-fisch-container {
   margin-left: 0vw;
 }
 
 .card {
-    display: inline-block;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    width: 300px;
-    margin: 20px;
-    
-  }
-  
-  .card img {
-    display: block;
-    width: 100%;
-    height: auto;
-  }
-  
-  .card-text {
-    padding: 10px;
-    text-align: center;
-    word-wrap: break-word;
-    white-space: normal;
-  }
-  
-  .card-text p {
-    margin: 0;
-    font-size: 23px;
-  }
-  
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 300px;
+  margin: 20px;
+
+}
+
+.card img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.card-text {
+  padding: 10px;
+  text-align: center;
+  word-wrap: break-word;
+  white-space: normal;
+}
+
+.card-text p {
+  margin: 0;
+  font-size: 23px;
+}
+
 /*Footer Bereich*/
 
-footer{
+footer {
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -211,35 +211,36 @@ footer{
   margin: 0px;
   min-width: 100%;
   height: 10px;
-  font-size:13px;
+  font-size: 13px;
 }
 
-.footer-logo{
+.footer-logo {
   display: flex;
   align-items: center;
   text-align: center;
 }
-.footer-logo > img{
+
+.footer-logo>img {
   margin-left: 10px;
 }
 
 
-.footer-impdat{
+.footer-impdat {
   display: flex;
   align-items: center;
   padding-right: 20px;
 }
 
-.footer-impdat > p{
+.footer-impdat>p {
   padding-left: 10px;
   padding-right: 10px;
   margin: 0px;
 }
 
-.footer-impdat > p > a {
+.footer-impdat>p>a {
   color: black;
 }
 
-  hr{
-    height: 1.5px;
-  }
+hr {
+  height: 1.5px;
+}
